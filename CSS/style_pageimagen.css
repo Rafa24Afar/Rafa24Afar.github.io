@@ -1,0 +1,252 @@
+@charset "utf-8";
+@import url("../webfonts/pacifico/stylesheet.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Permanent+Marker&family=Source+Sans+Pro:wght@600&family=Zilla+Slab:ital,wght@1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Permanent+Marker&family=Source+Sans+Pro:wght@600&family=Zilla+Slab:ital,wght@1,300&display=swap");
+@font-face{
+	font-family:"rafael";
+	src:url("../webfonts/Draw me the Rainbow.ttf");
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header , nav, main,footer{
+	margin: 0 auto;
+	padding: 20px;
+	width: 80%;
+}
+header  {
+	background-color: #318DCA;
+	color: #FFFFFF;
+	text-align: center;
+}
+header h1 {
+	margin: 0 auto;
+	width: 40%;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	letter-spacing: 5px;
+}
+
+nav {
+	background-color: #142543;
+}
+nav ul li {
+	width: 100px;
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+}
+main {
+	background-color: #465771;
+	padding: 50px;
+	height: auto;
+}
+main section {
+	padding: 30px;
+	background-color: #E4BEF2;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+	width: 70%;
+	font-size: 14px;
+}
+main section p {
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: undefined;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+
+footer {
+	background-color: #222D41;
+	color: #E4BEF2;
+	text-align: center;
+}
+h2  {
+	color: #740F8F;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+main section img {
+	border-left: 10px solid #FFFFFF;
+	border-right: 10px solid #FFFFFF;
+	border-bottom: 50px solid #FFFFFF;
+	border-top: 10px solid #FFFFFF;
+	width: 50%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+
+}
+
+footer h6 {
+	margin: 0 auto;
+	width: 30%;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+
+
+nav ul li a {
+	list-style-type: none;
+	font-size: 16px;
+	text-decoration: none;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+nav ul li a:link {
+	color: #FFFFFF;
+}
+nav ul li a:visited {
+	color: #318DCA;
+}
+nav ul li a:hover {
+	color: #668498;
+}
+p{
+	font-family: "montserrat";
+}
+#BT2-Girasoles {
+	width: 50%;
+	height: auto;
+	border-bottom: 10px inset #005383;
+	border-top-style: inset;
+	border-right-style: inset;
+	border-left-style: inset;
+	border-top-color: #005383;
+	border-right-color: #005383;
+	border-left-color: #005383;
+}
+#Bt21enMovimiento {
+	width: 80%;
+	height: auto;
+}
+.BT21Jugando {
+	width: 50%;
+	border: none;
+	height: auto;
+	padding-left: 0px;
+	float: left;
+	padding-right: 0px;
+	margin-right: 20px;
+}
+#Bt21Corazon {
+	float: right;
+	margin-left: 10px;
+	width: 30%;
+	border: none;
+	height: auto;
+	margin-bottom: 10px;
+}
+.BT21Naranja {
+	width: 30%;
+	height: auto;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-width: 10px;
+	margin-bottom: 0px;
+	margin-top: 5px;
+}
+.filtro_blur {
+	filter: blur(5px);
+
+}
+.filtro_brillo {
+	filter: brightness(50%);
+}
+.filtro_contraste {
+	filter: contrast(50%);
+}
+.filtro_escala_grises {
+	filter: grayscale(50);
+}
+.filtro_opacidad {
+	filter: opacity(10%);
+}
+.filtro_saturacion {
+	filter: saturate(30%);
+}
+.filtro_sepia {
+	filter: sepia(100%);
+}
+.filtro_inversion {
+	filter: invert(80%);
+}
+.size_video {
+	width: 80%;
+	height: auto;
+}
+input[type=text],textarea{
+	width: 30%;
+	padding: 5px;
+	margin: 5px 5px;
+	border: 2px solid #3BA9F3;
+	border-radius: 2px;
+	color: #1D0888
+}
+input[type=email]{
+	width: 30%;
+	padding: 5px;
+	margin: 5px 5px;
+	border: 1px solid #3BA9F3;
+	border-radius: 2px;
+	color: darksalmon;
+	background-color: aquamarine
+}
+input[type=submit]{
+	width: 20%;
+	height: 30px;
+	background-color: #1D0888;
+	color: #E4EBF2;
+	border-radius: 200px;
+	cursor: pointer
+}
+input[type=submit]:hover{
+	width: 20%;
+	height: 32px;
+	/*background-color: darkcyan;
+	color:#F5EEEE;*/	
+}
+#form3 #submit3:hover{
+	background-color: cadetblue;
+	color:#FFFFFF;
+}
+#comentario{
+	resize: none;
+	padding: 10%
+}
+#select {
+}
+main section h2 {
+	font-family: condiment;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+}
+.fuente_google_local {
+	font-family: pacifico;
+	font-size: 24px
+}
+.fuente_google_enlazada{
+	font-family: 'Rock Salt', cursive;
+	font-size: 18px;
+}
+.parrafo_1{
+	font-family: 'Zilla Slab', serif;
+	font-size: 16px;
+}
+.titulo_rafa{
+	font-family: "rafael";
+}
+.imagen_section {
+	width: 50%;
+	height: 0%;
+}
